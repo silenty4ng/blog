@@ -1,0 +1,13 @@
+version: "2"
+services:
+  server:
+    image: node:lts
+    ports:
+      - 8080:4000
+    command: ['/mnt/start.sh']
+    restart: always
+    working_dir: /mnt
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/mnt

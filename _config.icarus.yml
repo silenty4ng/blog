@@ -244,18 +244,18 @@ widgets:
         follow_link: 
         # Links to be shown on the bottom of the profile widget
         social_links:
-            # Github:
-            #     icon: fab fa-github
-            #     url: https://github.com/ppoffice
-            # Facebook:
-            #     icon: fab fa-facebook
-            #     url: https://facebook.com
-            # Twitter:
-            #     icon: fab fa-twitter
-            #     url: https://twitter.com
-            # Dribbble:
-            #     icon: fab fa-dribbble
-            #     url: https://dribbble.com
+            Git:
+                icon: fab fa-git-alt
+                url: https://git.vicicode.com/yang
+            Email:
+                icon: fas fa-envelope
+                url: mailto:yang@vicicode.com
+            DN42:
+                icon: fas fa-ethernet
+                url: https://registry.dn42.us/registry/aut-num/AS4242420706
+            # CALL SIGN:
+            #     icon: fas fa-broadcast-tower
+            #     url: https://www.qrz.com/
             RSS:
                 icon: fas fa-rss
                 url: /atom.xml

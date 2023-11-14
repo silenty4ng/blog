@@ -252,7 +252,7 @@ widgets:
                 url: mailto:yang@vicicode.com
             DN42:
                 icon: fas fa-ethernet
-                url: https://registry.dn42.us/registry/aut-num/AS4242420706
+                url: https://explorer.collector.dn42/?#/4242420706
             # CALL SIGN:
             #     icon: fas fa-broadcast-tower
             #     url: https://www.qrz.com/

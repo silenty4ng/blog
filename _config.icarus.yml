@@ -253,9 +253,9 @@ widgets:
             DN42:
                 icon: fas fa-ethernet
                 url: https://explorer.dn42.dev/#/AS4242420706
-            # CALL SIGN:
-            #     icon: fas fa-broadcast-tower
-            #     url: https://www.qrz.com/
+            CALL SIGN:
+                icon: fas fa-broadcast-tower
+                url: https://www.qrz.com/db/BD8DFN
             RSS:
                 icon: fas fa-rss
                 url: /atom.xml

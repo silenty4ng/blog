@@ -8,6 +8,7 @@ services:
     restart: always
     working_dir: /mnt
     environment:
+      - TZ=Asia/Shanghai
       - NODE_ENV=production
     volumes:
       - ./:/mnt

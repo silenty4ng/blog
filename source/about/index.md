@@ -21,5 +21,6 @@ date: 2023-09-28 10:00:00
 | Telegram      | https://t.me/silentyang                                                 |
 | Weibo         | https://weibo.com/u/3185728792                                          |
 | Matrix        | https://matrix.to/#/@yang:vicicode.com                                  |
+| Github        | https://github.com/silenty4ng                                           |
 | Steam         | 304292393                                                               |
 | Epic          | https://launcher.store.epicgames.com/u/fe39de54bb184e09bb04d0f9f1de1e2b |

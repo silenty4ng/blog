@@ -1,5 +1,5 @@
 # Version of the configuration file
-version: 5.1.0
+version: 6.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
@@ -166,8 +166,7 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
     type: twikoo
-    env_id: 'https://twikoo.vicicode.com'
-    lang: zh-CN
+    env_id: https://twikoo.vicicode.com
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:

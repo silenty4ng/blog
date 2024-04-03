@@ -118,7 +118,7 @@ navbar:
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: '<a href="//stats.vicicode.com" target="_blank">服务可用状态</a> <a href="//icp.gov.moe/?keyword=vicicode.com" target="_blank">萌ICP备20210066号</a> <br> VENI VIDI VICI'
+    copyright: '<a href="//stats.vicicode.com" target="_blank">服务可用状态</a> <a href="//icp.gov.moe/?keyword=vicicode.com" target="_blank">萌ICP备20210066号</a> <br> VENI VIDI VICI<noscript> <img src="https://shynet.vicicode.com/ingress/8c6103ca-b8c5-449c-b755-e085cffc4262/pixel.gif"> </noscript> <script defer src="https://shynet.vicicode.com/ingress/8c6103ca-b8c5-449c-b755-e085cffc4262/script.js"></script>'
     # Links to be shown on the right of the footer section
     links:
         # Creative Commons:
@@ -230,7 +230,7 @@ widgets:
         # Author name
         author: Silent YANG
         # Author title
-        author_title: 珍惜你的天才，把握当下
+        author_title: 「我不吃牛肉」
         # Author's current location
         location: China
         # URL or path to the avatar image

@@ -15,7 +15,7 @@ date: 2023-09-28 10:00:00
 #### 联系我
 | KEY           | VALUE                                                                   |
 | ------------- | ----------------------------------------------------------------------- |
-| Email         | yang@vicicode.com (GPG: 0x6b45552eaded7d3e)                             |
+| Email         | yang@vicicode.com                                                       |
 | QQ            | 568875138                                                               |
 | WeChat        | silenty4ng                                                              |
 | Telegram      | https://t.me/silentyang                                                 |

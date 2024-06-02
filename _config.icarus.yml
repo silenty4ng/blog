@@ -98,7 +98,7 @@ head:
     meta:
         # Meta tag specified in <attribute>=<value> style
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
-        - ''
+        - 'name=google-adsense-account;content=ca-pub-3673486713413138'
     # URL or path to the website's RSS atom.xml
     rss: 
 # Page top navigation bar configurations
@@ -230,7 +230,7 @@ widgets:
         # Author name
         author: Silent YANG
         # Author title
-        author_title: 「Silent Is Awful」
+        author_title: 「愛ほど歪んだ呪いはないよ」
         # Author's current location
         location: China
         # URL or path to the avatar image
@@ -277,7 +277,7 @@ widgets:
         # Names and URLs of the sites
         links:
             沐小晨曦: http://omooo.top
-            昌维: https://changwei.me
+            昌维: https://blog.changwei.me
             无邪: https://wuxiexie.github.io
             Yuhang Song: https://yhscode.com
     # Categories widget configurations

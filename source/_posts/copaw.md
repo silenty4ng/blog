@@ -8,9 +8,20 @@ date: 2026/3/11 22:00
 updated: 2026/3/11 22:00
 ---
 
-## 安装 Docker
+## 安装 Docker 和 防火墙
 ```
-apt install docker.io
+apt install docker.io ufw
+```
+## 配置防火墙
+在 /etc/ufw/after.rules 增加以下配置
+```
+:DOCKER-USER - [0:0]
+-A DOCKER-USER -j RETURN
+```
+运行防火墙
+```
+ufw allow 22
+ufw enable
 ```
 
 ## 运行 CoPaw 容器

@@ -5,12 +5,12 @@ tags:
     - ai
     - copaw
 date: 2026/3/11 22:00
-updated: 2026/3/11 22:00
+updated: 2026/3/19 10:00
 ---
 
 ## 安装 Docker 和 防火墙
 ```
-apt install docker.io ufw
+apt install podman ufw
 ```
 ## 配置防火墙
 在 /etc/ufw/after.rules 增加以下配置
@@ -26,12 +26,12 @@ ufw enable
 
 ## 运行 CoPaw 容器
 ```
-docker run --name copaw --restart=always -d --network=host -v ./copaw-data:/app/working -v ./copaw-secrets:/app/working.secret agentscope/copaw:latest
+podman run --privileged --name copaw --restart=always -d --network=host -v ./copaw-data:/app/working -v ./copaw-secrets:/app/working.secret docker.io/agentscope/copaw:latest
 ```
 
 ## 进行初始化配置（工作区文件）
 ```
-docker exec -it copaw bash
+podman exec -it copaw bash
 copaw init --defaults
 ```
 

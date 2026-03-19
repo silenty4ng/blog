@@ -26,6 +26,8 @@ ufw enable
 
 ## 运行 CoPaw 容器
 ```
+mkdir copaw-data
+mkdir copaw-secrets
 podman run --privileged --name copaw --restart=always -d --network=host -v ./copaw-data:/app/working -v ./copaw-secrets:/app/working.secret docker.io/agentscope/copaw:latest
 ```
 
